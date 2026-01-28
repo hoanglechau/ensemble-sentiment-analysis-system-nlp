@@ -1,6 +1,6 @@
-# Ensemble Sentiment Analysis System with Human-in-the-loop Feedback
+# Ensemble Sentiment Analysis System
 
-A full-stack Ensemble Sentiment Analysis System with Human-in-the-loop Feedback built with Flask, MongoDB, and Docker. Features AI-powered review classification using ensemble machine learning models and provides a comprehensive shopping experience with user authentication, product browsing, and intelligent review management.
+A full-stack Ensemble Sentiment Analysis System built with Flask, MongoDB, and Docker. Features AI-powered review classification using ensemble machine learning models and provides a comprehensive shopping experience with user authentication, product browsing, and intelligent review management.
 
 ## Screnshots
 
@@ -41,7 +41,7 @@ A full-stack Ensemble Sentiment Analysis System with Human-in-the-loop Feedback 
 
 ## Overview
 
-The Ensemble Sentiment Analysis System with Human-in-the-loop Feedback is an advanced e-commerce platform that combines modern web technologies with artificial intelligence to deliver an exceptional shopping experience. The application features intelligent product recommendations, real-time review analysis, and a sophisticated user interface designed for both desktop and mobile devices.
+The Ensemble Sentiment Analysis System is an advanced e-commerce platform that combines modern web technologies with artificial intelligence to deliver an exceptional shopping experience. The application features intelligent product recommendations, real-time review analysis, and a sophisticated user interface designed for both desktop and mobile devices.
 
 ### Key Highlights
 
@@ -257,7 +257,7 @@ POST /api/predict_review
 
 ### Model Architecture
 
-The application uses an ensemble of three machine learning models:
+The system uses an ensemble of three machine learning models:
 
 1. **Logistic Regression**: Bag-of-Words features with TF-IDF weighting
 2. **Random Forest**: spaCy word embeddings with feature scaling
@@ -357,7 +357,7 @@ Models are trained using:
 
 ### Docker Configuration
 
-The application uses Docker Compose for orchestration:
+The system uses Docker Compose for orchestration:
 
 - **Web Container**: Flask application with Python 3.11
 - **Database Container**: MongoDB 7.0 with persistent storage
